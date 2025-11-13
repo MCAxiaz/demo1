@@ -18,4 +18,5 @@ curl localhost:8080/local
 ```
 
 Expected response value: "local"
+
 Actual response value: "default"
