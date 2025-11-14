@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 const port = 8888
 
-app.get('/demo1/default', (req, res) => {
+app.get('/client/default', (req, res) => {
     const data = {
-        "name": "demo1",
+        "name": "client",
         "profiles": [
             "default"
         ],
@@ -23,9 +23,9 @@ app.get('/demo1/default', (req, res) => {
     res.json(data)
 })
 
-app.get('/demo1/local', (req, res) => {
+app.get('/client/local', (req, res) => {
     const data = {
-        "name": "demo1",
+        "name": "client",
         "profiles": [
             "local"
         ],

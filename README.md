@@ -3,13 +3,12 @@
 
 Run remote config Server
 ```shell
-npm install express
-node app.js
+./gradlew :server:bootRun
 ```
 
 Run Spring Boot Application
 ```shell
-./gradlew bootrun
+./gradlew :client:bootRun
 ```
 
 Call endpoint
